@@ -14,20 +14,21 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
+We propose a Smart Railway Navigation System (SRNS) — an AI-powered, multi-platform solution that provides real-time, accurate, and accessible navigation inside railway sta kutions.
+The system combines:
+3D indoor maps
+AI-based route optimization
+Voice-guided assistance
+IoT-based real-time updates
 
-We propose a system called RailNav AI, a smart railway navigation assistant that combines:
+This will help passengers quickly locate:
+Platforms
+Ticket counters
+Restrooms
+Food courts
+Waiting halls
 
-* Mobile application for personal navigation
-* Smart kiosks inside stations
-* Indoor positioning system (BLE/WiFi-based)
-* Voice-guided assistance for visually impaired users
-
-The system will provide:
-
-* Real-time user location inside station
-* Shortest path navigation
-* Voice + visual guidance
-* Accessibility-based routing (ramps, lifts)
+Even in large and crowded stations, users can navigate efficiently with minimal confusion.
 
 ## Proposed Solution / Architecture Diagram
 
@@ -40,6 +41,7 @@ Database → Stores station layout
 IPS → Tracks user location in real-time
 
 ## Use Cases
+
 
 <img width="280" height="95" alt="image" src="https://github.com/user-attachments/assets/bba01de5-34ed-4279-a0fd-7df320d36162" />
 
