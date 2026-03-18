@@ -47,23 +47,23 @@ IPS → Tracks user location in real-time
 
 # Detailed Use Cases:
 
-Passenger Navigation
+Passenger Navigation: 
 User enters destination (e.g., Platform 5)
 App shows shortest route with directions
 
-Visually Impaired Assistance
+Visually Impaired Assistance: 
 Voice-based navigation with step-by-step guidance
 
-Crowd Avoidance
+Crowd Avoidance: 
 Suggests less crowded routes using sensor data
 
-Emergency Navigation
+Emergency Navigation: 
 Guides users to nearest exits or medical facilities
 
-Multi-language Support
+Multi-language Support: 
 Supports regional languages for inclusivity
 
-Kiosk Assistance
+Kiosk Assistance: 
 Non-smartphone users can access maps via kiosks
 
 ## Technology Stack
