@@ -47,25 +47,24 @@ IPS → Tracks user location in real-time
 
 # Detailed Use Cases:
 
-1.Search Facility
-* User enters "Platform 5" or "Restroom"
-* System shows location on map
+Passenger Navigation
+User enters destination (e.g., Platform 5)
+App shows shortest route with directions
 
-2.Get Navigation
-* System calculates shortest route
-* Displays step-by-step directions
+Visually Impaired Assistance
+Voice-based navigation with step-by-step guidance
 
-3.Voice Assistance
-* User speaks destination
-* System gives audio directions
+Crowd Avoidance
+Suggests less crowded routes using sensor data
 
-4.Accessibility Mode
-* Suggests wheelchair-friendly paths
-* Avoids stairs
+Emergency Navigation
+Guides users to nearest exits or medical facilities
 
-5.Real-time Updates
-* Re-routes if user deviates
-* Updates based on crowd density
+Multi-language Support
+Supports regional languages for inclusivity
+
+Kiosk Assistance
+Non-smartphone users can access maps via kiosks
 
 ## Technology Stack
 
@@ -82,23 +81,18 @@ IPS → Tracks user location in real-time
 
 ## Dependencies
 
-🔹 Software Dependencies
+Software Dependencies
+Android Studio / Xcode
+Node.js runtime
+Cloud services (AWS/GCP)
+Map SDKs
 
-Node.js / Python
-Flask / Express.js
-React Native / Flutter
-PostgreSQL / MongoDB
-Three.js
+Hardware Dependencies
+Digital kiosks (touchscreens)
+BLE beacons for indoor positioning
+IoT sensors for crowd monitoring
 
-🔹 Hardware Dependencies
-
-Bluetooth Low Energy (BLE) Beacons
-WiFi routers for triangulation
-Touchscreen kiosks
-
-🔹 Libraries
-
-NetworkX (graph routing)
-SpeechRecognition (voice input)
-Text-to-Speech (audio output)
-Map rendering libraries
+Data Dependencies
+Railway station layouts
+Facility location data
+Real-time crowd data
